@@ -72,7 +72,7 @@ array = []
 holiday_hash.each do |season, festival| 
   festival.each do |festival, supply|
      binding.pry
-     if supply == "BBQ"
+     if supply.include?("BBQ")
       binding.pry
       array += festival
       puts array
