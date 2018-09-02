@@ -71,7 +71,8 @@ def all_holidays_with_bbq(holiday_hash)
 array = []
 holiday_hash.each do |season, festival| 
   festival.each do |festival, supply|
-    if supply == "BBQ"
+     binding.pry
+     if supply == "BBQ"
       binding.pry
       array += festival
       puts array
